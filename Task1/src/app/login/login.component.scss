@@ -1,0 +1,30 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+   
+  }
+
+  .login-background {
+    background-image: url('https://wallpapercave.com/wp/wp9764014.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.nav-linkactive{
+  cursor: pointer
+}
+
